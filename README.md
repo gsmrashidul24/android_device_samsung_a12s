@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-A127F (a12s)
+# Android device tree for samsung SM-A127F (a12s) Android 13
 
 ```
 #
