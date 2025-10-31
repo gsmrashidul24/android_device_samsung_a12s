@@ -8,3 +8,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
+# Samsung A127FXXSBDWL4 Device Tree For Create a Custom Recovery.
