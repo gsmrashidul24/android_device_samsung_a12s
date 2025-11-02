@@ -85,7 +85,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-08-01
+# VENDOR_SECURITY_PATCH := 2021-08-01
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -103,6 +103,13 @@ PLATFORM_VERSION := 16.1.0
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
-TW_SCREEN_BLANK_ON_BOOT := true
+# TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+TW_INCLUDE_FASTBOOTD := true
+# added by Rasel-Tech
+TW_NO_SCREEN_TIMEOUT := true
+TW_NO_SCREEN_BLANK := true
+#TW_SCREEN_BLANK_ON_BOOT := true
+TW_DEVICE_VERSION := 1_physwizz
