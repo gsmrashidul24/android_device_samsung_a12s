@@ -27,6 +27,3 @@
 #/system_dlkm        ext4      system_dlkm                           flags=display=system_dlkm;logical
 #/init_boot          emmc      /dev/block/by-name/init_boot          flags=display=init_boot
 
-#  Samsung ODE
-#/dev/block/by-name/keydata		/keydata	ext4	defaults		recoveryonly
-#/dev/block/by-name/keyrefuge		/keyrefuge	f2fs	defaults		recoveryonly
