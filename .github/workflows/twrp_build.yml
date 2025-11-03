@@ -10,7 +10,7 @@ on:
       tagBody:
         description: 'tag message'
         required: false
-        default: 'This is a pre-release'
+        default: 'This is a stable-build'
 
 jobs:
   build:
