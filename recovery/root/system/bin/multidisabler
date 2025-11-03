@@ -129,7 +129,7 @@ disable_recovery_restoration() {
 echo " "
 echo "Multi-disabler v3.1 for Samsung devices"
 echo "running Android 9 or later."
-echo "by Ian Macdonald, enhanced by afaneh92"
+echo "Created by Rasel-Tech"
 echo " "
 
 os=$(getprop ro.build.version.release)
