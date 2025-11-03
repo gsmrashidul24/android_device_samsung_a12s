@@ -18,12 +18,12 @@ jobs:
 
     steps:
       - name: Cleaning Up Runner
-        uses: rokibhasansagar/slimhub_actions@main
+        uses: crazo7924/slimhub_actions@main
 
       - name: Recovery Compilation
         uses: crazo7924/Recovery-Compiler@beta
         env:
-          MANIFEST: "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11"
+          MANIFEST: "https://github.com/gsmrashidul24/platform_manifest_twrp_aosp.git -b twrp-14"
           DT_LINK: "https://github.com/gsmrashidul24/android_device_samsung_a12s.git"
           VENDOR: "samsung"
           CODENAME: "a12s"
