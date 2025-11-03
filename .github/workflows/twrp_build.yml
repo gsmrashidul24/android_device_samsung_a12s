@@ -24,7 +24,7 @@ jobs:
         uses: crazo7924/Recovery-Compiler@beta
         env:
           MANIFEST: "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11"
-          DT_LINK: "https://github.com/physwizz/android_device_samsung_A127U2"
+          DT_LINK: "https://github.com/gsmrashidul24/android_device_samsung_a12s.git"
           VENDOR: "samsung"
           CODENAME: "a12s"
           TARGET: "recoveryimage"
