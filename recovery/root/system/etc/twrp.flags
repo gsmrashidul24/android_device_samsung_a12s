@@ -30,3 +30,20 @@
 #  Samsung ODE
 #/dev/block/by-name/keydata		/keydata	ext4	defaults		recoveryonly
 #/dev/block/by-name/keyrefuge		/keyrefuge	f2fs	defaults		recoveryonly
+
+
+# added by Rasel-Tech
+
+# v1
+/system_image  emmc  /dev/block/mapper/system  flags=backup=0;flashimg=1;display="System Image"
+
+/vendor_image  emmc  /dev/block/mapper/vendor  flags=backup=0;flashimg=1;display="Vendor Image"
+
+/product_image  emmc  /dev/block/mapper/product  flags=backup=0\;flashimg=1\;display=\"Product Image\"";
+
+/odm_image  emmc  /dev/block/mapper/odm  flags=backup=0;flashimg=1;display="Odm Image"
+
+# External 
+/external_sd auto  /dev/block/mmcblk1p1 /dev/block/mmcblk1 flags=storage;wipeingui;removable
+
+/usb-otg auto  /dev/block/sda1 /dev/block/sda   flags=display="USB-OTG";storage;wipeingui;removable
