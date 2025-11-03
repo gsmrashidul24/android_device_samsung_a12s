@@ -10,7 +10,7 @@ on:
       tagBody:
         description: 'tag message'
         required: false
-        default: 'This is a stable-build'
+        default: 'This is a pre-release'
 
 jobs:
   build:
@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: Cleaning Up Runner
-        uses: crazo7924/slimhub_actions@main
+        uses: rokibhasansagar/slimhub_actions@main
 
       - name: Recovery Compilation
         uses: crazo7924/Recovery-Compiler@beta
@@ -28,7 +28,7 @@ jobs:
           VENDOR: "samsung"
           CODENAME: "a12s"
           TARGET: "recoveryimage"
-          FLAVOR: "userdebug"
+          FLAVOR: "eng"
           TZ: "Asia/Riyadh"
 
       - name: Create Release
